@@ -12,6 +12,8 @@ The desktop application/installer and the Gemini 4 local model connection are **
 
 Project layout: `client/src/pages/Home.tsx` contains the page and dialogs; `client/src/index.css` contains responsive branding and reduced-motion support; `client/public/images/bernard-balloon-mountains.png` is the supplied reference artwork; `client/public/manus-routes.json` declares the page routes. `TODO.md` tracks delivery outcomes.
 
+Public source repository: https://github.com/SRIVISHNU-SNS/bernard-ai-website
+
 Use `pnpm check` and `pnpm build:static` for the site's checks and production build.
 
 `server/_core/publicConfig.ts` exposes only named public runtime values. Private keys stay server-side. The platform serves managed `/manus-storage/` assets; the application does not register a second proxy.

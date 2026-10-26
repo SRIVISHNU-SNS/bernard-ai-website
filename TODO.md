@@ -5,4 +5,4 @@
 - [x] **Install availability state** — Provide a prominent Install Bernard button with a polished coming-soon/unavailable state because no download source currently exists; do not present a nonexistent installer as downloadable.
 - [x] **Product explanation and accessible responsive experience** — Include a desktop-focused explanation of intended availability across applications and workflows, responsive navigation and page sections, semantic markup, keyboard controls, and reduced-motion support.
 - [x] **Complete website source** — Keep the complete website source organized for local development and production deployment.
-- [ ] **GitHub repository delivery** — Create a new GitHub repository on the user’s account and push the finished website source code to it.
+- [x] **GitHub repository delivery** — Create a new GitHub repository on the user’s account and push the finished website source code to it.
