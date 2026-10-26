@@ -84,6 +84,19 @@ export default function MinimalHome() {
           </button>
         </div>
       </section>
+      <section className="product-info" aria-labelledby="product-title">
+        <div className="product-heading">
+          <p className="eyebrow">DESKTOP ASSISTANT</p>
+          <h1 id="product-title">Bernard for desktop</h1>
+        </div>
+        <div className="product-copy">
+          <p>Bernard is being developed as a local assistant for use across desktop apps.</p>
+          <dl className="status-list">
+            <div><dt>DESKTOP APP</dt><dd>Not available yet</dd></div>
+            <div><dt>GEMINI 4</dt><dd>Local connection not active</dd></div>
+          </dl>
+        </div>
+      </section>
       <StatusDialog panel={panel} close={closePanel} />
     </main>
   );

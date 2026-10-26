@@ -1,6 +1,6 @@
 # Bernard website
 
-- [x] Use the supplied balloon artwork as the page, without a custom logo, added slogans, or promotional sections.
-- [x] Keep only the Install Bernard and Assistant controls; show concise, honest unavailable states for the installer and unconnected Gemini 4 local runtime.
-- [x] Keep the single-screen layout responsive and the two controls keyboard-accessible.
-- [x] Include the complete website source and the supplied image in the public GitHub repository: https://github.com/SRIVISHNU-SNS/bernard-ai-website.
+- [x] Keep the supplied balloon artwork as the full-width hero, with a restrained coral, cream, plum, and serif treatment; remove the custom logo and generic promotional filler.
+- [x] Retain concise product information: Bernard is intended as a local desktop assistant across apps; clearly show that the app is unavailable and Gemini 4 is not connected.
+- [x] Keep the Install Bernard and Assistant controls usable, accessible, responsive, and honest about their current status.
+- [x] Include the complete source and supplied image in the public repository: https://github.com/SRIVISHNU-SNS/bernard-ai-website.

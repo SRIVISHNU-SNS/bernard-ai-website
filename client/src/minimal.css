@@ -24,6 +24,16 @@ button:focus-visible { outline: 2px solid #ad4549; outline-offset: 3px; }
 .assistant-button:hover, .install-button:hover { filter: brightness(1.04); }
 .avatar-dot { width: 11px; height: 11px; display: inline-block; border-radius: 50%; background: var(--peach); border: 2px solid #fff7ed; }
 
+.product-info { display: grid; grid-template-columns: minmax(220px, .8fr) minmax(300px, 1.2fr); gap: clamp(32px, 8vw, 126px); align-items: start; max-width: 1440px; margin: 0 auto; padding: clamp(32px, 2.8vw, 48px) clamp(24px, 8vw, 132px) clamp(58px, 7vw, 96px); }
+.eyebrow { margin: 0 0 18px; color: #a84349; font-size: 10px; font-weight: 700; letter-spacing: .18em; }
+.product-heading h1 { max-width: 420px; margin: 0; color: var(--plum); font: 400 clamp(36px, 5.4vw, 64px)/1.04 Georgia, 'Times New Roman', serif; letter-spacing: -.045em; }
+.product-copy { max-width: 620px; padding-top: 28px; }
+.product-copy > p { max-width: 510px; margin: 0; color: #514850; font: 400 clamp(17px, 1.8vw, 22px)/1.5 Georgia, 'Times New Roman', serif; }
+.status-list { display: flex; flex-wrap: wrap; gap: 28px 52px; margin: 29px 0 0; padding: 16px 0 0; border-top: 1px solid #d7c9bb; }
+.status-list div { display: grid; gap: 7px; }
+.status-list dt { color: #9a4b4d; font-size: 9px; font-weight: 700; letter-spacing: .14em; }
+.status-list dd { margin: 0; color: #302638; font-size: 13px; }
+
 .dialog-backdrop { position: fixed; z-index: 10; inset: 0; display: grid; place-items: center; padding: 20px; background: rgba(27,21,31,.56); }
 .dialog { position: relative; width: min(100%, 390px); padding: 34px 28px 28px; color: var(--plum); background: var(--cream); border: 1px solid rgba(48,38,56,.15); }
 .dialog h2 { margin: 0 0 12px; font: 500 27px/1.15 Georgia, 'Times New Roman', serif; }
@@ -36,6 +46,10 @@ button:focus-visible { outline: 2px solid #ad4549; outline-offset: 3px; }
   .controls { top: 12px; right: 12px; gap: 6px; }
   .assistant-button, .install-button { min-height: 36px; padding: 0 10px; font-size: 11px; }
   .scene-image { width: 100%; }
+  .product-info { grid-template-columns: minmax(0,1fr); gap: 22px; padding: 44px 24px 52px; }
+  .product-heading h1 { max-width: 320px; font-size: 42px; }
+  .product-copy { padding-top: 0; }
+  .status-list { gap: 20px 26px; margin-top: 22px; }
   .dialog { padding: 33px 22px 23px; }
 }
 @media (prefers-reduced-motion: reduce) {
